@@ -1,16 +1,29 @@
-# React + Vite
+# 🎬 CineStream
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CineStream is a modern movie browsing web application that allows users to explore trending movies, view details, and enjoy a smooth streaming-style interface. The project focuses on a clean UI, fast performance, and responsive design.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse trending and popular movies
+- View movie posters, ratings, and descriptions
+- Responsive design for desktop and mobile
+- Fast and interactive UI
+- Dynamic movie data using API
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Movie API (for fetching movie data)
 
-## Expanding the ESLint configuration
+## ⚙️ Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository and install dependencies.
+
+```bash
+git clone https://github.com/yourusername/cine-stream.git
+cd cine-stream
+npm install
+npm run dev
